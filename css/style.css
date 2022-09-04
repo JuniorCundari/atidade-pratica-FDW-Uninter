@@ -1,0 +1,134 @@
+/* ----- IMPORTANDO FONTS DO GOOGLE FONTS ------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
+
+/* ----- CORES DEFAULT ------------------------ */
+:root {
+   --background: #1A1E24;
+   --text: #DDDCDE;
+}
+
+* {
+   margin: 0;
+	padding: 0;
+	border: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: var(--background);
+   font-family: 'Fira Code', monospace;
+   color: var(--text);
+   height: 100vh;
+}
+
+h1 {
+   font-size: 2.5rem;
+   font-weight: 700;
+}
+
+h2 {
+   font-size: 2rem;
+   font-weight: 500;
+}
+
+p {
+   font-size: 1.5rem;
+   font-weight: 300;
+}
+
+li {
+   font-size: 1.5rem;
+   font-weight: 300;
+   list-style: none;
+}
+
+/* ----- PAGES ------------------------ */
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.container-profile, h2 {
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+.profile {
+   outline: 6px solid #1678C7;
+   border-radius: 50%;
+}
+
+.text-container {
+   text-align: center;
+   width: 100%;
+   max-width: 900px;
+   margin: 0 auto;
+   line-height: 1.6;
+}
+
+.container-formation {
+   height: 60vh;
+}
+
+.container-formation div,
+.contato-container {
+   max-width: 940px;
+   margin: 0 auto;
+}
+
+.container-formation,
+.contato-form {
+   margin: 75px 10px;
+}
+
+ol li {
+   margin: 20px 0;
+}
+
+.container-project {
+   border: 2px solid #2e3133;
+   border-radius: 15px;
+   transition: 0.5s;
+   max-width: 1000px;
+}
+
+.container-project:hover {
+   border: 2px solid #1678C7;
+}
+
+.container-project h3 {
+   margin-top: 50px;
+}
+
+.image-project {
+   margin: 0 auto;
+   max-width: 90%;
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.image-project img {
+   border-radius: 15px;
+   max-width: 900px;
+   width: 100%;
+}
+
+.technologies {
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+.technologies h4 {
+   margin-bottom: 20px;
+}
+
+footer {
+   margin-top: 50px;
+   padding: 50px;
+   text-align: center;
+   font-size: 1.5rem;
+   color: var(--text);
+}
