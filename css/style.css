@@ -74,13 +74,13 @@ li {
 }
 
 .container-formation div,
-.contato-container {
+.container-contact {
    max-width: 940px;
    margin: 0 auto;
 }
 
 .container-formation,
-.contato-form {
+.form {
    margin: 75px 10px;
 }
 
